@@ -4,7 +4,7 @@ playing = input("Do you want to play\n >> ")
 
 if playing.lower() != "yes":
     quit()
-playing = "yes"
+    
 score = 0
 while playing.lower() == "yes":
     print("==================================================")
